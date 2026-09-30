@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -7,53 +8,95 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# 🍴 Recipe Book & Meal Planner
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+A full-stack recipe management and meal planning web application built with Laravel and MySQL.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📌 About the Project
 
-## Learning Laravel
+Recipe Book & Meal Planner is a web application that helps users manage their favorite recipes and organize meals throughout the week.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Users can create, view, edit, search, filter, and delete recipes. They can also organize recipes using categories and create weekly meal plans.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The project is being developed as a practical Laravel project to learn and demonstrate backend development, database relationships, CRUD operations, MVC architecture, and dynamic web application development.
 
-## Laravel Sponsors
+## ✨ Features
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 🍽️ Recipe Management
+- Create new recipes
+- View recipe details
+- Edit recipes
+- Delete recipes
+- Search recipes by name
+- Filter recipes by category
+- Set cooking time
+- Set recipe difficulty
 
-### Premium Partners
+### 🏷️ Categories
+- Breakfast
+- Lunch
+- Dinner
+- Dessert
+- Snacks
+- Assign recipes to categories
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 📅 Meal Planner
+- Plan meals for specific dates
+- Choose Breakfast, Lunch, or Dinner
+- Select recipes for planned meals
+- View meals in a weekly calendar
+- Edit meal plans
+- Delete meal plans
+- Navigate between previous and next weeks
 
-## Contributing
+### 🛒 Shopping List
+- Generate ingredients from planned recipes
+- Remove duplicate ingredients
+- Display ingredients as a shopping checklist
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠️ Technologies Used
 
-## Code of Conduct
+- PHP
+- Laravel 12
+- MySQL / MariaDB
+- Blade
+- Bootstrap 5
+- HTML5
+- CSS3
+- JavaScript
+- Composer
+- Git & GitHub
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🏗️ Project Architecture
 
-## Security Vulnerabilities
+The application follows the Laravel MVC architecture:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
+```text
+Recipe Book
+│
+├── Models
+│   ├── Recipe
+│   ├── Category
+│   └── MealPlan
+│
+├── Controllers
+│   ├── RecipeController
+│   ├── MealPlanController
+│   └── ShoppingListController
+│
+├── Views
+│   ├── Home
+│   ├── Recipes
+│   ├── Meal Plans
+│   └── Shopping List
+│
+└── Database
+    ├── recipes
+    ├── categories
+    └── meal_plans
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+
